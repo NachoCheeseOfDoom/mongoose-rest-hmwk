@@ -84,7 +84,7 @@ exports.getByEmail = async function(req, res) {
 
     try {
         const students = await StudentModel.find({
-             email: { '$regex': search, '$options': 'i' } 
+            email: { '$regex': search, '$options': 'i' } 
         });
         
         if (!students) {

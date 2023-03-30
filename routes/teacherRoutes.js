@@ -10,3 +10,4 @@ router.delete('/:id', teacherController.deleteTeacher);
 
 
 module.exports = router;
+ 
